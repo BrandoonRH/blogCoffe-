@@ -183,3 +183,27 @@ font-weight: normal;
      
   }
 }
+
+.curso{
+    padding: 3rem 0;
+    border-bottom: .1rem solid var(--colorclaro);
+}
+@media(min-width: 768px){
+  .curso{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 2rem;  
+  }
+  .curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+   }
+   .curso__info{
+   font-weight: normal;
+   }
+   
+   .curso__info, 
+   .curso__label{
+       font-size: 2rem;
+   }
+}
