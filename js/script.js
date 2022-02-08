@@ -5,7 +5,7 @@ heading.textContent = 'Brandoon RH'
 
 //queryhSelecterAll
 const enlace = document.querySelectorAll('.navegacion a');//Retorna de 0 a todos los selectores que consuerden con el, 
-//Siretorna más de un elemento retorna un array con todos los elementos que concordaron
+//Si retorna más de un elemento retorna un array con todos los elementos que concordaron
 console.log(enlace);
 //enlace[0].textContent = 'Nuevo Texto para Enlace'
 //enlace[0].classList.add('class__new');
