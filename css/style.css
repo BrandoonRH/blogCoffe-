@@ -217,6 +217,13 @@ font-weight: normal;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.error{
+    background-color: rgb(238, 135, 135);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
 
 /*Fomrulario*/
 .formulario{
